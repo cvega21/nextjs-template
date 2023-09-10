@@ -11,7 +11,7 @@
     "clean": "rimraf .next .swc out coverage",
     "lint": "next lint",
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
-    "check-types": "tsc --noEmit --pretty && tsc --project cypress --noEmit --pretty",
+    "check-types": "tsc --noEmit --pretty && tsc --noEmit --pretty",
     "test": "jest",
     "postbuild": "next-sitemap"
   },
